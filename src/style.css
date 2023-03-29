@@ -22,6 +22,9 @@ h3 {
   font-size: 25px;
   line-height: 1.5;
 }
+p {
+  line-height: 30px;
+}
 .hero {
   background-color: var(--second-color);
   text-align: center;
@@ -30,4 +33,19 @@ h3 {
 .btn:hover {
   color: var(--primary-color);
   background-color: #fff;
+}
+.title {
+  font-size: 36px;
+}
+.project-descr {
+  padding: 0 30px;
+}
+.outline {
+  border: 1px solid var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);
+}
+.outline:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }
