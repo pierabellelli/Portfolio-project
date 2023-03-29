@@ -49,3 +49,14 @@ p {
   background-color: var(--primary-color);
   color: #fff;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 56px;
+  }
+}
+h2 {
+  font-size: 26px;
+}
+.hero {
+  padding: 60px 50px;
+}
