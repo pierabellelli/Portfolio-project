@@ -49,18 +49,21 @@ p {
   background-color: var(--primary-color);
   color: #fff;
 }
-.hero-about {
+.content-container {
   padding: 160px 20px;
 }
-.hero-about h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--font-text);
   font-weight: bold;
 }
-.about-section {
+.content-section {
   margin: 30px;
 }
-
+content-section h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
@@ -72,10 +75,10 @@ h2 {
 .hero {
   padding: 60px 50px;
 }
-.hero-about {
-  padding: 60px 50px;
+.content-container {
+  padding: 60px 60px;
 }
-.about-section {
+.content-section {
   text-align: center;
   padding: 0;
 }
