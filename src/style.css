@@ -58,11 +58,14 @@ p {
   font-weight: bold;
 }
 .content-section {
-  margin: 30px;
+  margin: 50px;
 }
 content-section h3 {
   font-size: 24px;
   line-height: 1.5;
+}
+content-section p {
+  font-size: 14px;
 }
 @media (max-width: 900px) {
   h1 {
