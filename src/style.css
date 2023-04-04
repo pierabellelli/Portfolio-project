@@ -91,6 +91,26 @@ content-section h3 {
 content-section p {
   font-size: 14px;
 }
+.mail a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+.mail a:hover {
+  color: var(--primary-color);
+}
+.social-links i {
+  color: var(--primary-color);
+  padding: 10px;
+  font-size: 20px;
+}
+footer .contact-box {
+  margin: 0 auto;
+  background-color: var(--second-color);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
