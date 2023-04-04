@@ -47,18 +47,50 @@
     <div class="content-container">
       <div class="content-section">
         <h1 class="text-start">Let's get in touch</h1>
-        <h3 class="text-start fw-bold">Email</h3>
-        <p class="text-start">
-          <a href="mailto:piera.bellelli@gmail.com">piera.bellelli@gmail.com</a>
-        </p>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/xyyanooe"
+              method="post"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label>
+                  Your email:
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    required
+                    autofocus
+                  />
+                </label>
+              </div>
+              <div class="mb-3">
+                <label>
+                  Your message:
+                  <textarea name="message" class="form-control"></textarea>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-danger">Send</button>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-start fw-bold">Email</h3>
+            <p class="text-start">
+              <a href="mailto:piera.bellelli@gmail.com"
+                >piera.bellelli@gmail.com</a
+              >
+            </p>
 
-        <h3 class="text-start fw-bold">LinkedIn</h3>
-        <p class="text-start">
-          <a href="https://www.linkedin.com/in/piera-bellelli-4b6929215/"
-            >@pierabellelli</a
-          >
-        </p>
-        >
+            <h3 class="text-start fw-bold">LinkedIn</h3>
+            <p class="text-start">
+              <a href="https://www.linkedin.com/in/piera-bellelli-4b6929215/"
+                >@pierabellelli</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
